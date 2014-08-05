@@ -160,6 +160,7 @@ function load_js_and_styles() {
 	wp_enqueue_style('resources', get_template_directory_uri() . '/css/resources.css', array(), null, 'all' );
 	wp_enqueue_style('videos', get_template_directory_uri() . '/css/videos.css', array(), null, 'all' );
 	wp_enqueue_style('homepage', get_template_directory_uri() . '/css/homepage.css', array(), null, 'all' );
+	wp_enqueue_style('form', get_template_directory_uri() . '/css/form.css', array(), null, 'all' );
 	wp_enqueue_style('responsive', get_template_directory_uri() . '/css/responsive.css', array(), null, 'all' );
 
 }
@@ -588,7 +589,7 @@ class type_filter extends WP_Widget {
 		$filters .= "<div class='row'><input class='chk' type='checkbox' value='auto-doors' id='auto-doors'><label for='auto-doors'>Auto Doors</label></div>";
 		$filters .= "<div class='row'><input class='chk' type='checkbox' value='buffers-and-scrubbers' id='buffers-and-scrubbers'><label for='buffers-and-scrubbers'>Buffers and Scrubbers</label></div>";
 		$filters .= "<div class='row'><input class='chk' type='checkbox' value='locks' id='locks'><label for='locks'>Locks</label></div>";
-		$filters .= "<div class='row'><button id='submit'>submit</button><button id='reset'>clear videos</button></div>";
+		$filters .= "<div class='row buttons'><button id='submit'>submit</button><button id='reset'>clear videos</button></div>";
 		$filters .= "</div>";
 		
 		echo $args['before_widget'];
@@ -675,6 +676,7 @@ class type_filter2 extends WP_Widget {
 		$title = apply_filters( 'widget_title', $instance['title'] );
 		
 		$filters .= "<div class='filters2'>";
+		$filters .= "<div class='row'><span class='filter-label'>Filters</span></div>";
 		$filters .= "<div class='row'><input class='chk' type='checkbox' value='auto-doors' id='auto-doors'><label for='auto-doors'>Auto Doors</label></div>";
 		$filters .= "<div class='row'><input class='chk' type='checkbox' value='baler' id='baler'><label for='baler'>Baler</label></div>";
 		$filters .= "<div class='row'><input class='chk' type='checkbox' value='batteries' id='batteries'><label for='batteries'>Batteries</label></div>";
@@ -689,7 +691,7 @@ class type_filter2 extends WP_Widget {
 		$filters .= "<div class='row'><input class='chk' type='checkbox' value='plumbing' id='plumbing'><label for='plumbing'>Plumbing</label></div>";
 		$filters .= "<div class='row'><input class='chk' type='checkbox' value='wet-dry-vacuums' id='wet-dry-vacuums'><label for='wet-dry-vacuums'>Wet-Dry Vacuums</label></div>";
 
-		$filters .= "<div class='row'><button id='submit'>submit</button><button id='reset'>clear resources</button></div>";
+		$filters .= "<div class='row buttons'><button id='submit'>submit</button><button id='reset'>clear resources</button></div>";
 		$filters .= "</div>";
 		
 		echo $args['before_widget'];

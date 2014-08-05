@@ -121,7 +121,8 @@ transition: bor
 .checkbox-container table td {
 	padding-left:20px;
 }
-.checkbox-container table td input[type="checkbox"] {
+.checkbox-container table td input[type="checkbox"],
+input[type="checkbox"] {
 	margin-left: -20px;
 	display: inline;
 	float: left;
@@ -145,28 +146,33 @@ transition: bor
 	margin:0px;
 }
 .widget_type_filter .filters,
-.widget_type_filter2 .filters {
-	padding: 10px;
-	border-radius: 5px;
-	margin-top: 10px;
+.widget_type_filter2 .filters2 {
+padding: 5px 10px 10px 20px;
+border-radius: 5px;
+margin-top: 10px;
 }
 .widget_type_filter .filters .row,
-.widget_type_filter2 .filters .row {
-	margin:5px 0px;
+.widget_type_filter2 .filters2 .row {
+	margin:0px;
+}
+.row.buttons {
+margin-left: -25px!important;
 }
 .widget_type_filter .filters .filter-label,
-.widget_type_filter2 .filters .filter-label {
-	font-size:14px;
-	line-height:14px;
-	font-weight:bold;
-	text-transform:uppercase;
-	margin-bottom:10px;
+.widget_type_filter2 .filters2 .filter-label {
+font-size: 14px;
+line-height: 14px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 10px;
+margin-left: -20px;
+display: block;
 }
 .widget_type_filter .filters label,
-.widget_type_filter2 .filters label {
+.widget_type_filter2 .filters2 label {
 	margin-left:5px;
 }
 .widget_type_filter .filters #submit,
 .widget_type_filter .filters #reset,
-.widget_type_filter2 .filters #submit,
-.widget_type_filter2 .filters #reset {}
+.widget_type_filter2 .filters2 #submit,
+.widget_type_filter2 .filters2 #reset {}
