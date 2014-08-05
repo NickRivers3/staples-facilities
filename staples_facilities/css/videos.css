@@ -42,44 +42,6 @@ a.video-poster.thumb img{
 #video-sidebar {
 	padding-left:0px;
 }
-#video-sidebar h3.widget-title {
-	font-size:26px;
-	font-weight:bold;
-	line-height:26px;
-	color:#067298;
-	margin:0px;
-}
-#videos-section .filters {
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 5px;
-margin-top: 10px;
-}
-#videos-section .filters .row {
-	margin:5px 0px;
-}
-#videos-section .filters .filter-label {
-	font-size:14px;
-	line-height:14px;
-	font-weight:bold;
-	text-transform:uppercase;
-	margin-bottom:10px;
-}
-#videos-section .filters label {
-	margin-left:5px;
-}
-#videos-section .filters #submit,
-#videos-section .filters #reset {
-	color:#fff;
-	padding:3px 20px;
-	font-size:18px;
-	background-color:#cc0000;
-	border-radius:3px;
-	text-decoration:none;
-	border:0px;
-	margin:5px;
-	text-transform:uppercase;
-}
 #videos-section  #content {
 	padding-right:0px;
 }

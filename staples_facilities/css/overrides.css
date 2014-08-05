@@ -27,7 +27,10 @@ margin:0px;
 table.resource tr.show {
 	display:table-row!important;
 }
-
+button {
+	margin: 5px;
+	text-transform: capitalize;
+}
 html.ie8 .container {
 	width:1170px!important;
 }

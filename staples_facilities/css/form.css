@@ -134,3 +134,39 @@ transition: bor
 	float: left;
 }
 .required {color:red;}
+
+
+.widget_type_filter h3.widget-title,
+.widget_type_filter2 h3.widget-title {
+	font-size:26px;
+	font-weight:bold;
+	line-height:26px;
+	color:#067298;
+	margin:0px;
+}
+.widget_type_filter .filters,
+.widget_type_filter2 .filters {
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.widget_type_filter .filters .row,
+.widget_type_filter2 .filters .row {
+	margin:5px 0px;
+}
+.widget_type_filter .filters .filter-label,
+.widget_type_filter2 .filters .filter-label {
+	font-size:14px;
+	line-height:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+.widget_type_filter .filters label,
+.widget_type_filter2 .filters label {
+	margin-left:5px;
+}
+.widget_type_filter .filters #submit,
+.widget_type_filter .filters #reset,
+.widget_type_filter2 .filters #submit,
+.widget_type_filter2 .filters #reset {}
