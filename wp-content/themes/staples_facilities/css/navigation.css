@@ -1,0 +1,31 @@
+.navbar-default .navbar-collapse  {
+	background-image:url('../images/navbar-bg.png');
+background-position: 0px 0px;
+background-repeat: repeat-x;
+min-height: 35px;
+height: 35px;
+}
+.menu-primary-container {}
+
+ul#menu-primary {
+margin-left: 210px;
+}
+ul#menu-primary li {
+	margin-right:10px;
+}
+.menu-primary-container .navbar-nav > li > a {
+padding-top: 5px;
+padding-bottom: 5px;
+font-size: 16px;
+line-height: 16px;
+color: #fefcb1;
+text-decoration: none;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+color: #fff;
+background-color: transparent;
+}

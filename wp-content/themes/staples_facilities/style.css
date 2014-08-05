@@ -1,0 +1,224 @@
+/*
+Theme Name: Staples Facilties
+Author: Nick Rivers
+Description: Bootstrap Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: staples_facilties
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html {}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000;
+	background-color:#999999;
+}
+header#header {
+	background-image: url('images/header-bg.png');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	height: 141px;
+}
+#site {}
+
+
+footer {
+	padding:20px;
+	background-color:#fff;
+	border-top:#000000;
+	margin-bottom:20px;
+}
+
+
+/*
+ Header
+*/
+header#header .container-fluid {
+	min-height:195px;
+}
+header#header .navbar-header{
+	width:100%;
+	float:left;
+}
+.header-top {
+width: 100%;
+height: 115px;
+}
+
+.branding {
+position: relative;
+margin: 0;
+}
+h1.site-title {
+font-size: 36px;
+line-height: 36px;
+font-weight: 700;
+text-transform: uppercase;
+float: left;
+margin: 15px 0px 10px 0px;
+text-shadow: 0 0 10px #000, 0 0 1px #fff;
+}
+h1.site-title a {
+	color:#fff;
+	text-decoration:none;
+}
+h1.site-title .site-tag {
+	color: #fff;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 300;
+	text-shadow: 0 0 10px #000, 0 0 1px #fff;
+	text-transform: lowercase;
+}
+img#staples-logo {
+position: absolute;
+top: 10px;
+left: 0px;
+width: 195px;
+}
+img#toolbox {
+position: absolute;
+top: 15px;
+right: 15px;
+width: 195px;
+}
+img#flags {
+position: absolute;
+top: 80px;
+left: 630px;
+}
+.header-info {}
+.header-info p {
+font-size: 16px;
+line-height: 16px;
+color: #FFF;
+text-shadow: 1px 1px 1px #000;
+}
+
+/*
+ Main content
+*/
+#main-content {
+	background-image:url('images/content-bg.jpg');
+	background-repeat:repeat-x;
+	background-position:0px 0px;
+	background-color:white;
+	padding-top:30px;
+}
+
+/*
+ Footer
+*/
+footer p {text-align:center;}
+
+/*
+ Global Elements
+*/
+.container {
+	background-color:white;
+}
+.flush {
+	margin-left: -15px!important;
+	margin-right: -15px!important;
+}
+.grid-item {
+	text-align: center;
+	outline: 1px solid #ccc;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.grid-item .wrap {
+	background-color:whitesmoke;
+	border:1px solid #999;
+}
+.grid-item h3 {
+	font-size: 16px;
+	margin: 0px;
+}
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.alignright {}
+.alignleft {}
+.aligncenter {}
+
+
+.footer-bottom {
+border-top: 1px solid #000;
+padding-top: 10px;
+margin-top: 10px;
+}
+.footer-bottom p{
+color:#067298;
+}
+
+
+h1.page-title {
+font-size: 26px;
+font-weight: bold;
+line-height: 26px;
+color: #067298;
+margin: 0px 0px 10px 0px;
+}
+
+/* Team Page */
+.team-member {margin:10px 0px;}
+.team-member .wrap {
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 5px 10px 0px #ccc;
+	-moz-box-shadow:    0px 5px 10px 0px #ccc;
+	box-shadow:         0px 5px 10px 0px #ccc;
+	min-height: 120px;
+}
+.team-member .wrap .inner {
+	-webkit-box-shadow: 0px -3px 7px -5px #999;
+	-moz-box-shadow:    0px -3px 7px -5px #999;
+	box-shadow:         0px -3px 7px -5px #999;
+	padding:5px;
+	border-radius: 5px;
+}
+.team-member .team-member-image {
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 5px;
+}
+.team-member .team-member-image img {
+	margin:0px;
+	width:100%;
+	height:auto;
+}
+.team-member .team-member-content {
+padding-left: 0px;
+padding-right: 0px;
+font-size: 14px;
+line-height: 18px;
+padding-top: 5px;
+}
+
+h3.widget-title {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 13px;
+line-height: 20px;
+color: #d94040;
+font-weight: bold;
+text-transform: uppercase;
+margin-top: 0px;
+}
+.textwidget {
+font-size: 13px;
+line-height: 17px;
+}
+.textwidget ul {
+	list-style:none;
+	padding:0px;
+}

@@ -1,0 +1,60 @@
+/*
+Stylesheet: Resources
+*/
+
+table.resource {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    border:2px solid #2087a8;
+}
+table.resource th{
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px;
+    background: #cc0000;
+}
+table.resource .right-border {
+    border-right: 2px solid #2087a8;
+}
+table.resource .left-border {
+    border-left: 2px solid #2087a8;
+}
+table.resource .bttm-border {
+    border-bottom: 1px solid #bcdbe5;
+}
+
+table.resource .chapter-title {
+    font-weight: 700;
+}
+table.resource td,
+table.resource td.chapter-title a {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 6px;
+    color:#000;
+    text-decoration:none;
+}
+table.resource tr.last {
+    border-bottom:2px solid #2087a8;
+}
+table.resource .media-type {
+text-transform: capitalize;
+}
+a.pdf-icon, 
+a.read-more,
+a.link-icon  {
+    background-repeat:no-repeat;
+    background-position:center left;
+    padding: 5px 5px 5px 20px;
+}
+a.pdf-icon, 
+a.read-more {
+    background-image: url("../images/pdf-icon.png");
+}
+a.link-icon {
+    background-image: url("../images/link-icon.png");
+}

@@ -1,0 +1,344 @@
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+	img#toolbox {
+		top: 10px;
+		width: 150px;
+	}
+	img#staples-logo {
+		top:10px;
+		width:150px;
+	}
+	.team-member .team-member-image {
+		padding-left: 0px;
+		padding-right: 5px;
+		padding-top: 5px;
+	}
+	h1.site-title {
+		margin-top:10px;
+	}
+	h1.site-title .site-tag {
+		float:left;
+	}
+	.header-info p {
+		margin-bottom:2px;
+		font-size:14px;
+		font-weight:14px;
+	}
+	img#flags {
+		top: 80px;
+		left: 500px;
+	}
+	ul#menu-primary {
+	margin-left: 170px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width:1199px) {
+	.video-container.responsive .video-js {
+		width: 100%!important;
+		min-height: 158px!important;
+		height: auto!important;
+	}
+	#homepage-videos {
+		background-position-y: 203px;
+	}
+	#front-page h3.block-title {
+		background-size: 100%!important;
+		height: 31px!important;
+		line-height: 31px!important;
+	}
+}
+@media screen and (max-width: 991px) {
+	#videos-section .filters #submit, 
+	#videos-section .filters #reset {
+		font-size:12px
+	}
+	#videos-section .filters label {
+		font-size:11px;
+		font-weight:normal;
+	}
+	.branding {	}
+	.header-info p {
+		margin-bottom:2px;
+		font-size:14px;
+		font-weight:14px;
+	}
+	img#flags {
+		top: 55px;
+		left: 345px;
+	}
+	h1.site-title {
+		font-size: 35px;
+		line-height: 35px;
+	}
+	h1.site-title .site-tag {display:block;}
+	img#staples-logo {
+		width: 120px;
+		top: 20px;
+	}
+	img#toolbox {
+		width: 120px;
+		top: 20px;
+	}
+	.header-info {
+	}
+	ul#menu-primary {
+		margin-left: 135px;
+	}
+	.block-header-image {width:100%;height:auto;}
+	
+	.video-container.responsive > div {
+		max-width:100%!important;
+	}
+	#homepage-videos h5 {margin-top:10px;}
+	.team-member .team-member-image {
+		padding-left: 0px;
+		padding-right: 10px;
+		padding-top: 5px;
+	}
+	.team-member-image img {width:100%;height:auto;}
+	.video-container.responsive .video-js {
+		width: 100%!important;
+		min-height: 397px!important;
+		height: auto!important;
+	}
+	#form13 input[type="text"] {
+		width:100%;
+	}
+	img.size-full {
+		width:100%;
+		height:auto;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:991px) {
+	#front-page h3.block-title {
+		background-size: 100%;
+		height: 77px!important;
+		line-height: 77px!important;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	.video-container.large .video-js {
+		width: 100%!important;
+		min-height: 274px!important;
+		height: auto!important;
+	}
+	#homepage-info img.block-header-image {width:100%;height:auto;}
+}
+@media screen and (min-width: 992px) {
+	.video-container.large .video-js {
+		width: 100%!important;
+		min-height: 360px!important;
+		height: auto!important;
+	}
+}
+@media screen and (max-width: 767px) {
+	.row-offcanvas {
+		position: relative;
+		-webkit-transition: all .25s ease-out;
+		     -o-transition: all .25s ease-out;
+                transition: all .25s ease-out;
+	}
+	#front-page h3.block-title,
+	#text-4.widget h3.widget-title {
+		background-size: 100%;
+	}
+	.row-offcanvas-right {
+		right: 0;
+	}
+
+	.row-offcanvas-left {
+		left: 0;
+	}
+
+	.row-offcanvas-right
+	.sidebar-offcanvas {
+		right: -50%; /* 6 columns */
+	}
+
+	.row-offcanvas-left
+	.sidebar-offcanvas {
+		left: -50%; /* 6 columns */
+	}
+
+	.row-offcanvas-right.active {
+		right: 50%; /* 6 columns */
+	}
+
+	.row-offcanvas-left.active {
+		left: 50%; /* 6 columns */
+	}
+
+	.sidebar-offcanvas {
+		position: absolute;
+		top: 0;
+		width: 50%; /* 6 columns */
+	}
+	.navbar-default .navbar-collapse {
+		background-image:none;
+		background-color:#067298;
+		bottom: 0px;
+	}
+	.header-info {
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+	ul#menu-primary {
+		margin-left:0px;
+	}
+	.navbar-nav {margin:0px;}
+	.header-info {
+	}
+	.navbar-default .navbar-collapse {
+		position:relative;
+		z-index:10000;
+		height:auto;
+	}
+	section.row.content {
+		float:left;
+		width: 100%;
+	}
+	.video-container.large .video-js {
+		width: 100%!important;
+		min-height: 372px!important;
+		height: auto!important;
+	}
+	img#staples-logo {
+		width: 113px;
+		top: 20px;
+	}
+	img#toolbox {
+		width: 113px;
+		top: 20px;
+	}
+	h1.site-title {
+		font-size: 28px;
+		line-height: 28px;
+		margin: 10px 0px 10px 0px;
+	}
+	img#flags {
+		top: 105px;
+		left: 15px;
+	}
+	.left-column {
+		position:absolute;
+		right:140px;
+	}
+	.right-column {
+		position:absolute;
+		right:0px;
+	}
+	
+}
+
+@media screen and (max-width: 600px) {
+	.header-top {height:140px;}
+	img#staples-logo {display:none;}
+	img#toolbox {display:none;}
+	h1.site-title,
+	.header-info {margin:0px;}
+	.header-info p {font-size:12px;}
+	h3.block-title {font-size:22px;}
+	#videos-section .filters label {font-size:12px;line-height:14px;font-weight:normal;}
+	#videos-section .filters #submit, #videos-section .filters #reset {margin:2px;padding:3px 10px;}
+	.video-container.large .video-js {
+		width: 100%!important;
+		min-height: 278px!important;
+		height: auto!important;
+	}
+	.branding {
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 480px) {
+	img#staples-logo {display:none;}
+	img#toolbox {display:none;}
+	img#flags {display:none;}
+	img#flags {display:none;}
+	.video-container.large .video-js {
+		width: 391px!important;
+		min-height: 220px!important;
+		height: 220px!important;
+	}
+	.video-container.responsive .video-js {
+		width: 436px!important;
+		min-height: 245px!important;
+		height: 245px!important;
+	}
+	h1.site-title {
+		font-size: 26px;
+		line-height: 26px;
+	}
+	.header-info {
+		display:none;
+	}
+	header#header {
+		height:115px;
+	}
+	.header-top {
+		height: 110px;
+	}
+	#homepage-slides .image-container {
+		height:200px;
+	}
+}
+@media screen and (max-width: 320px) {
+	
+	h1.site-title {margin:0px;}
+	.header-info {
+		margin: 0px;
+	}
+	.header-info p {font-size:11px;}
+	h1.site-title .site-tag {
+		font-size: 14px;
+		line-height: 14px;
+	}
+	.video-container.responsive .video-js {
+		width: 100%!important;
+		min-height: 154px!important;
+		height: 154px!important;
+	}
+	.video-container.large .video-js {
+		width: 100%!important;
+		min-height: 130px!important;
+		height: 130px!important;
+	}
+	#homepage-videos {
+		background-position-y: 196px;
+	}
+}
+@media screen and (max-width: 410px) {
+	#front-page h3.block-title {
+		background-size: 100%;
+		height: auto!important;
+		line-height: normal!important;
+	}
+	#text-4.widget h3.widget-title {
+		background-size: 100%;
+		height: auto!important;
+		line-height: normal!important;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+	.video-container.large .video-js {
+		width: 640px!important;
+		min-height: inherit!important;
+		height: 360px!important;
+	}
+	#text-3.widget h3.widget-title {
+		padding: 0px 100px 0px 0px;
+	}
+}
+
+@media screen (min-width:992px) and (min-width: 1024px) {
+	.video-container.responsive .video-js {
+		width: 100%!important;
+		min-height: 158px!important;
+		height: auto!important;
+	}
+}
+
