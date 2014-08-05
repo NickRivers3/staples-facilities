@@ -126,6 +126,15 @@ function staples_facilties_widgets_init() {
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>',
 	) );
+	register_sidebar( array(
+		'name'          => __( 'Resource Sidebar', 'staples_facilties' ),
+		'id'            => 'resource-sidebar',
+		'description'   => __( 'Main Resource sidebar that appears on the left.', 'staples_facilties' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
 }
 add_action( 'widgets_init', 'staples_facilties_widgets_init' );
 
@@ -637,4 +646,104 @@ function register_type_filter() {
 }
 add_action( 'widgets_init', 'register_type_filter' );
 
+
+/**
+ * Adds Type Filter widget.
+ */
+class type_filter2 extends WP_Widget {
+
+	/**
+	 * Register widget with WordPress.
+	 */
+	function __construct() {
+		parent::__construct(
+			'type_filter2', // Base ID
+			__('Media Type Filter 2', 'staples_facilities'), // Name
+			array( 'description' => __( 'A Media Type Filter Widget 2', 'staples_facilities' ), ) // Args
+		);
+	}
+
+	/**
+	 * Front-end display of widget.
+	 *
+	 * @see WP_Widget::widget()
+	 *
+	 * @param array $args     Widget arguments.
+	 * @param array $instance Saved values from database.
+	 */
+	public function widget( $args, $instance ) {
+		$title = apply_filters( 'widget_title', $instance['title'] );
+		
+		$filters .= "<div class='filters2'>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='auto-doors' id='auto-doors'><label for='auto-doors'>Auto Doors</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='baler' id='baler'><label for='baler'>Baler</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='batteries' id='batteries'><label for='batteries'>Batteries</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='buffers-and-scrubbers' id='buffers-and-scrubbers'><label for='buffers-and-scrubbers'>Buffers and Scrubbers</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='eas-systems' id='eas-systems'><label for='eas-systems'>EAS Systems</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='general' id='general'><label for='general'>General</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='ladder' id='ladder'><label for='ladder'>Ladder</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='lighting' id='lighting'><label for='lighting'>Lighting</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='locks' id='locks'><label for='locks'>Locks</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='panic-doors' id='panic-doors'><label for='panic-doors'>Panic Doors</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='pest-control' id='pest-control'><label for='pest-control'>Pest Control</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='plumbing' id='plumbing'><label for='plumbing'>Plumbing</label></div>";
+		$filters .= "<div class='row'><input class='chk' type='checkbox' value='wet-dry-vacuums' id='wet-dry-vacuums'><label for='wet-dry-vacuums'>Wet-Dry Vacuums</label></div>";
+
+		$filters .= "<div class='row'><button id='submit'>submit</button><button id='reset'>clear resources</button></div>";
+		$filters .= "</div>";
+		
+		echo $args['before_widget'];
+		if ( ! empty( $title ) ) {
+			echo $args['before_title'] . $title . $args['after_title'];
+		}
+		echo __( $filters, 'staples_facilities' );
+		echo $args['after_widget'];
+	}
+
+	/**
+	 * Back-end widget form.
+	 *
+	 * @see WP_Widget::form()
+	 *
+	 * @param array $instance Previously saved values from database.
+	 */
+	public function form( $instance ) {
+		if ( isset( $instance[ 'title' ] ) ) {
+			$title = $instance[ 'title' ];
+		}
+		else {
+			$title = __( 'New title', 'staples_facilities' );
+		}
+		?>
+		<p>
+		<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label> 
+		<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
+		</p>
+		<?php 
+	}
+
+	/**
+	 * Sanitize widget form values as they are saved.
+	 *
+	 * @see WP_Widget::update()
+	 *
+	 * @param array $new_instance Values just sent to be saved.
+	 * @param array $old_instance Previously saved values from database.
+	 *
+	 * @return array Updated safe values to be saved.
+	 */
+	public function update( $new_instance, $old_instance ) {
+		$instance = array();
+		$instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
+
+		return $instance;
+	}
+
+} // class type_filter
+
+// register type_filter widget
+function register_type_filter2() {
+    register_widget( 'type_filter2' );
+}
+add_action( 'widgets_init', 'register_type_filter2' );
 ?>

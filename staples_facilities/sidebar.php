@@ -15,6 +15,10 @@
 		if ( is_active_sidebar( 'video-sidebar' ) ) :
 			dynamic_sidebar('video-sidebar'); 
 		endif; 
+	} else if (is_page('how-do-i')) {
+		if ( is_active_sidebar( 'resource-sidebar' ) ) :
+			dynamic_sidebar('resource-sidebar'); 
+		endif; 
 	} else {
 		if ( is_active_sidebar( 'primary-sidebar' ) ) :
 			dynamic_sidebar('primary-sidebar'); 

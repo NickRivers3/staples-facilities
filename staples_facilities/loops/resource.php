@@ -45,7 +45,7 @@
                             $itemCount++;
                             $catTotal = $resource_query->found_posts; 
                         ?>
-                        <tr class="<?php if ($itemCount == $catTotal): echo 'last'; endif;?> ">
+                        <tr class="<?php $terms = wp_get_object_terms($post->ID, 'type');echo $terms[0]->slug;if ($itemCount == $catTotal): echo ' last'; endif;?> ">
                             <td class="chapter-title">
                                 <?php 
                                     if ($itemCount <= 1):

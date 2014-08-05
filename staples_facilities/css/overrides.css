@@ -23,6 +23,11 @@
 border-color: #ddd;
 margin:0px;
 }
+
+table.resource tr.show {
+	display:table-row!important;
+}
+
 html.ie8 .container {
 	width:1170px!important;
 }
