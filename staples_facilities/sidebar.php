@@ -19,6 +19,10 @@
 		if ( is_active_sidebar( 'resource-sidebar' ) ) :
 			dynamic_sidebar('resource-sidebar'); 
 		endif; 
+	} else if (is_page('vendor-form') || is_page('vendor-thank-you')) {
+		if ( is_active_sidebar( 'vendor-sidebar' ) ) :
+			dynamic_sidebar('vendor-sidebar'); 
+		endif; 
 	} else {
 		if ( is_active_sidebar( 'primary-sidebar' ) ) :
 			dynamic_sidebar('primary-sidebar'); 

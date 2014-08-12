@@ -7,7 +7,6 @@ table {
   width:auto;
 }
 table.wdform_table1 {
-	
 }
 input[type="text"] {
   display: block;
@@ -37,31 +36,27 @@ label,
   padding: 0px 0px 5px 0px;
   font-weight: 700;
 }
-
 .ch_rad_label {
   font-size:12px;
   font-weight:normal;
   margin-left:5px;
 }
-
-
 .form-group div {
-  width:100%!important;
+  /*width:100%!important;*/
 }
 .toolbar_padding {
 	padding: 10px;
 	background-color: whitesmoke;
-	border-bottom: 10px solid #fff;
-	border-radius: 5px;
 }
-
 .mini_label {
 	margin: 0px 0px;
-	paddding:0px;
+	padding:0px;
 	font-size: 11px!important;
 }
 .wdform_select {
-
+}
+.wdform_tbody2 {
+	background-color:whitesmoke;
 }
 .wdform_select select {
 display: block;
@@ -82,7 +77,6 @@ box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 transition: bor
 }
 .wdform_select .label {
-	
 }
 .toolbar_padding textarea {
 display: block;
@@ -100,10 +94,8 @@ border-radius: 4px;
 box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
 -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-transition: bor
-
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-
 .form-group table td {
 	position:relative;
 }
@@ -117,25 +109,65 @@ transition: bor
 	right: 3px;
 	top: 8px;
 }
-
 .checkbox-container table td {
 	padding-left:20px;
 }
-.checkbox-container table td input[type="checkbox"],
-input[type="checkbox"] {
+.checkbox-container table td input[type="checkbox"] {
 	margin-left: -20px;
 	display: inline;
 	float: left;
 	margin-top: 0px;
 	margin-right: 0px;
 }
+/*35_element_label13*/
+#\32 8_element_label13,
+#\32 9_element_label13,
+#\33 0_element_label13,
+#\33 2_element_label13,
+#\33 3_element_label13,
+#\33 5_element_label13 {
+	font-size: 12px;
+	font-weight: 300;
+}
+#\33 5_element_label13 {
+	padding-left:10px;
+}
+input#\31_element13 {
+	width:100%!important;
+}
+#\33 3_label_section13,
+#\33 5_label_section13 {
+	top: -20px;
+	position: relative;
+}
+#\33 3_label_and_element_section13 {
+	position:relative;
+	top:-20px;
+}
 .checkbox-container table td label {
 	line-height:15px;
 	margin-left: 0px;
 	float: left;
 }
+#\33 3_element_label13 {
+	font-size: 11px!important;
+	font-weight: bold;
+	padding-left:10px;
+}
+#\33 7_div_address,
+#\31 5_element13 {
+	width:100%!important;
+}
+#\33 3_element_section13,
+#\33 5_element_section13 {
+	position:relative;
+	left: -50px;
+	top: -20px;
+	background-color: transparent;
+}
 .required {color:red;}
 
+tr[type="type_text"] input[type="text"] {}
 
 .widget_type_filter h3.widget-title,
 .widget_type_filter2 h3.widget-title {
