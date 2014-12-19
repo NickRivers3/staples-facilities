@@ -45,10 +45,7 @@
 								<a href="<?php echo home_url(); ?>" title="<?php bloginfo('title');?>"><?php bloginfo('title');?></a>
 							</h1>
 						</div>
-						<div class="header-info">
-							<p>24x7 Building Issues: 866-888-4321</p>
-							<p>24x7 Conveyor Equipment Issues: 888-438-4800</p>
-						</div>
+						<img id="flags" src="<?php bloginfo('template_url'); ?>/images/flags.png"/>
 					</div>
 					
 					<div class="right-column col-lg-2 col-md-2 col-sm-2 col-xs-2">

@@ -63,7 +63,7 @@
 	}
 	img#flags {
 		top: 55px;
-		left: 345px;
+		left: 300px;
 	}
 	h1.site-title {
 		font-size: 35px;
@@ -79,11 +79,12 @@
 		top: 20px;
 	}
 	.header-info {
+		display:none;
 	}
 	ul#menu-primary {
 		margin-left: 135px;
 	}
-	.block-header-image {width:100%;height:auto;}
+	.block-header-image img{width:100%;height:auto;}
 	
 	.video-container.responsive > div {
 		max-width:100%!important;
@@ -123,7 +124,7 @@
 		min-height: 274px!important;
 		height: auto!important;
 	}
-	#homepage-info img.block-header-image {width:100%;height:auto;}
+	#homepage-info .block-header-image img{width:100%;height:auto;}
 }
 @media screen and (min-width: 992px) {
 	.video-container.large .video-js {

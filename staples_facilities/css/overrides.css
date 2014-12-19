@@ -128,6 +128,11 @@ html.ie8 .large.video-container .video-js  {
 	height:450px!important;
 	min-height:auto!important;
 }
+html.ie8 .video-container .vjs-fullscreen.video-js {
+	width: 100%!important;
+	min-height: inherit!important;
+	height: 100%!important;
+}
 html.ie8 .visible-xs {
 	display:none!important;
 }

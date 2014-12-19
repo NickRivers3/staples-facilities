@@ -150,7 +150,7 @@ border-bottom: 1px solid #da9c00;
 	font-weight: bold;
 
 }
-#homepage-info img.block-header-image {
+#homepage-info .block-header-image img{
 	vertical-align:top;
 }
 #homepage-info h4.primary-header,
@@ -178,7 +178,7 @@ border-bottom: 1px solid #da9c00;
 #homepage-widget .widget {
 	margin:40px 0px;
 }
-#text-3.widget {
+#black-studio-tinymce-2 {
 	border:1px solid #ccc;
 	padding:10px;
 	background-image:url('../images/ticket.png');
@@ -192,7 +192,7 @@ border-bottom: 1px solid #da9c00;
 
 }
 
-#text-3.widget h3.widget-title {
+#black-studio-tinymce-2 h3.widget-title {
 font-size: 26px;
 line-height: 28px;
 font-weight: normal;
@@ -201,16 +201,16 @@ color: #404040;
 margin: 0px 0px 20px 0px;
 }
 
-#text-3.widget .textwidget {
+#black-studio-tinymce-2 .textwidget {
 width: 80%;
 }
 
 
-#text-4.widget {
+#black-studio-tinymce-3 {
 	
 }
 
-#text-4.widget h3.widget-title {
+#black-studio-tinymce-3 h3.widget-title {
 	margin: 0px;
 	height: 39px;
 	background-image:url('../images/feedback-header-bg.png');
@@ -223,7 +223,7 @@ width: 80%;
 	font-size:24px;
 }
 
-#text-4.widget .textwidget {
+#black-studio-tinymce-3 .textwidget {
 	padding:35px 15px 15px 15px;
 	background-image:url('../images/feedback-bg.png');
 	background-repeat:repeat-x;
@@ -236,7 +236,7 @@ line-height: 20px;
 .textwidget a.pdf-icon {
 	display: block;
 }
-#text-4.widget .textwidget .feedback {
+#black-studio-tinymce-3 .textwidget .feedback {
 	border-left:1px solid #bd0014;
 	padding-left:15px;
 

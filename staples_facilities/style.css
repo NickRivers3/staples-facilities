@@ -35,7 +35,10 @@ footer {
 	margin-bottom:20px;
 }
 
-
+code {
+	background-color:transparent;
+	padding:0px;
+}
 /*
  Header
 */
@@ -91,9 +94,12 @@ width: 195px;
 img#flags {
 position: absolute;
 top: 80px;
-left: 630px;
+left: 695px;
 }
-.header-info {}
+.header-info {
+	width: 80%;
+	padding-left: 75px;
+}
 .header-info p {
 font-size: 16px;
 line-height: 16px;
@@ -101,6 +107,9 @@ color: #FFF;
 text-shadow: 1px 1px 1px #000;
 }
 
+.entry-content ul li {
+	margin:5px 0px;
+}
 /*
  Main content
 */
@@ -178,7 +187,7 @@ margin: 0px 0px 10px 0px;
 	-webkit-box-shadow: 0px 5px 10px 0px #ccc;
 	-moz-box-shadow:    0px 5px 10px 0px #ccc;
 	box-shadow:         0px 5px 10px 0px #ccc;
-	min-height: 120px;
+	min-height: 140px;
 }
 .team-member .wrap .inner {
 	-webkit-box-shadow: 0px -3px 7px -5px #999;

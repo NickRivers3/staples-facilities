@@ -396,7 +396,7 @@ function codex_custom_init() {
 		'has_archive' => true,
 		'with_front' => true ,
 		'hierarchical' => true,
-		'supports' => array('title'),
+		'supports' => array('title', 'page-attributes'),
 	);
 	register_post_type('team members', $team_args);
 	
@@ -460,7 +460,7 @@ function codex_custom_init() {
 		'has_archive' => true,
 		'with_front' => true ,
 		'hierarchical' => true,
-		'supports' => array('title'),
+		'supports' => array('title', 'thumbnail'),
 	);
 	register_post_type('nac information', $nac_information_args);
 	
@@ -492,7 +492,7 @@ function codex_custom_init() {
 		'has_archive' => true,
 		'with_front' => true ,
 		'hierarchical' => true,
-		'supports' => array('title'),
+		'supports' => array('title', 'thumbnail'),
 	);
 	register_post_type('retail information', $retail_information_args);
 }

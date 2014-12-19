@@ -137,12 +137,11 @@ input#\31_element13 {
 }
 #\33 3_label_section13,
 #\33 5_label_section13 {
-	top: -20px;
+	width: 50px;
 	position: relative;
 }
 #\33 3_label_and_element_section13 {
 	position:relative;
-	top:-20px;
 }
 .checkbox-container table td label {
 	line-height:15px;
@@ -158,12 +157,14 @@ input#\31_element13 {
 #\31 5_element13 {
 	width:100%!important;
 }
+#\33 7_label_and_element_section13 {
+	padding-bottom:0px;
+}
 #\33 3_element_section13,
 #\33 5_element_section13 {
 	position:relative;
-	left: -50px;
-	top: -20px;
 	background-color: transparent;
+	padding-top:0px;
 }
 .required {color:red;}
 

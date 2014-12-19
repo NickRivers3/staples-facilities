@@ -37,7 +37,7 @@
 	<section id="homepage-info" class="flush row">
 		<div id="nac-info" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 			<h3 class="block-title">NAC Information</h3>
-			<img class="block-header-image" src="<?php bloginfo('template_url'); ?>/images/nac-header-img.jpg"/>
+			
 			<?php 
 				$nac_info = new WP_Query( array(
 					'post_type' => array('nacinformation'),
@@ -47,6 +47,9 @@
 				)); 
 				while ($nac_info->have_posts() ) : $nac_info->the_post(); 
 			?>
+				<div class="block-header-image">
+					<?php the_post_thumbnail(); ?>
+				</div>
 				<article id="nac-info-<?php the_id(); ?>" <?php post_class('content'); ?>>
 					<?php if( get_field('nac_primary_header')): ?>
 						<h4 class="primary-header"><?php the_field('nac_primary_header'); ?></h4>
@@ -67,7 +70,6 @@
 		<!-- #retail-info -->
 		<div id="retail-info" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 			<h3 class="block-title">Retail Information</h3>
-			<img class="block-header-image" src="<?php bloginfo('template_url'); ?>/images/retail-header-img.jpg"/>
 			<?php 
 				$retail_info = new WP_Query( array(
 					'post_type' => array('retailinformation'),
@@ -77,6 +79,9 @@
 				)); 
 				while ($retail_info->have_posts() ) : $retail_info->the_post(); 
 			?>
+				<div class="block-header-image">
+					<?php the_post_thumbnail(); ?>
+				</div>
 				<article id="retail-info-<?php the_id(); ?>" <?php post_class('content'); ?>>
 					<?php if( get_field('retail_primary_header')): ?>
 						<h4 class="primary-header"><?php the_field('retail_primary_header'); ?></h4>

@@ -13,7 +13,7 @@
 	<?php 
 		$video_query = new WP_Query( array(
 			'post_type' => array('teammembers'),
-			'orderby' => 'date',
+			'orderby' => 'menu_order',
 			'order' => 'ASC',
 		)); 
 		while ($video_query->have_posts() ) : $video_query->the_post(); 
